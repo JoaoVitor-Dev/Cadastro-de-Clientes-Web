@@ -1,0 +1,75 @@
+.button{
+    border-style: none;
+    height: 38px;
+    padding: 6px 12px;
+    background-color: black;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    cursor: pointer;
+    transition: box-shadow .6s ease;
+    border-radius: 4px;
+}
+/*---------------------------------ESTILIZAÇÃO DOS BOTÕES AZUL-----------------------------------*/
+.button.blue{
+    background-color: #188fca;
+    border: 1.7px solid #188fca;
+    color: #fff;
+}
+.button.blue:hover{
+    background-color: #1c6f99;
+    border: 1.7px solid #1c6f99;
+    color: white;
+}
+/*---------------------------------ESTILIZAÇÃO DOS BOTÕES AZUIS-----------------------------------*/
+
+
+
+/*---------------------------------ESTILIZAÇÃO DOS BOTÕES VERDES-----------------------------------*/
+.button.green{
+    background-color: #4CAF50;
+    border: 1px solid #4CAF50;
+    color: #fff;
+}
+
+.button.green:hover{
+    background-color: #3f9c42;
+    color: white;
+}
+/*---------------------------------ESTILIZAÇÃO DOS BOTÕES VERDES-----------------------------------*/
+
+
+
+/*---------------------------------ESTILIZAÇÃO DOS BOTÕES VERMELHOS-----------------------------------*/
+.button.red{
+    background-color: #FF4949;
+    border: 1px solid #FF4949;
+    color: #fff;
+}
+
+.button.red:hover{
+    background-color: #bb2c2c;
+    border: 1px solid #bb2c2c;
+    color: white;
+}
+/*---------------------------------ESTILIZAÇÃO DOS BOTÕES VERMELHOS-----------------------------------*/
+
+
+@media(max-width:480px){
+    .button.mobile{
+        color:transparent;
+        font-size:0;
+        width:50px;
+        height:50px;
+        border-radius: 50%;
+        position:fixed;
+        top: 90vh;
+        left: 80vw;
+    }
+    .button.mobile::before{
+        content: "+";
+        color:black;
+        font-size:2rem;
+        width:100%;
+        height:100%;
+    }
+}
