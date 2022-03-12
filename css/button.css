@@ -11,12 +11,13 @@
 }
 /*---------------------------------ESTILIZAÇÃO DOS BOTÕES AZUL-----------------------------------*/
 .button.blue{
-    background-color: #ffffff;
-    border: 1.7px solid #1FB6FF;
-    color: #1FB6FF;
+    background-color: #188fca;
+    border: 1.7px solid #188fca;
+    color: #fff;
 }
 .button.blue:hover{
-    background-color: #1FB6FF;
+    background-color: #1c6f99;
+    border: 1.7px solid #1c6f99;
     color: white;
 }
 /*---------------------------------ESTILIZAÇÃO DOS BOTÕES AZUIS-----------------------------------*/
@@ -25,13 +26,13 @@
 
 /*---------------------------------ESTILIZAÇÃO DOS BOTÕES VERDES-----------------------------------*/
 .button.green{
-    background-color: #ffffff;
+    background-color: #4CAF50;
     border: 1px solid #4CAF50;
-    color: #4CAF50;
+    color: #fff;
 }
 
 .button.green:hover{
-    background-color: #4CAF50;
+    background-color: #3f9c42;
     color: white;
 }
 /*---------------------------------ESTILIZAÇÃO DOS BOTÕES VERDES-----------------------------------*/
@@ -40,13 +41,14 @@
 
 /*---------------------------------ESTILIZAÇÃO DOS BOTÕES VERMELHOS-----------------------------------*/
 .button.red{
-    background-color: #ffffff;
+    background-color: #FF4949;
     border: 1px solid #FF4949;
-    color: #FF4949;
+    color: #fff;
 }
 
 .button.red:hover{
-    background-color: #FF4949;
+    background-color: #bb2c2c;
+    border: 1px solid #bb2c2c;
     color: white;
 }
 /*---------------------------------ESTILIZAÇÃO DOS BOTÕES VERMELHOS-----------------------------------*/
