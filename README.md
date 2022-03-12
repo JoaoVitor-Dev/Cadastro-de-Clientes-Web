@@ -1,4 +1,4 @@
-*Sistema Web de Cadastro de Cliente.**
+*Sistema Web de Cadastro de Cliente.*
 
 ## Tecnologias
 - Html
