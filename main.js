@@ -77,7 +77,7 @@ const createRow = (client, index) => {
     newRow.innerHTML = `
         <td>${client.nome}</td>
         <td>${client.email}</td>
-        <td>${client.celular}</td>
+        <td>${client.telefone}</td>
         <td>${client.cidade}</td>
         <td>
             <button type="button" class="button blue" id="edit-${index}">Alterar</button>
@@ -101,7 +101,7 @@ const updateTable = () => {
 const fillFields = (client) => {
     document.getElementById('nome').value = client.nome
     document.getElementById('email').value = client.email
-    document.getElementById('celular').value = client.celular
+    document.getElementById('telefone').value = client.celular
     document.getElementById('cidade').value = client.cidade
     document.getElementById('nome').dataset.index = client.index
 }
