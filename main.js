@@ -56,7 +56,7 @@ const saveClient = () => {
         const client = {
             nome: document.getElementById('nome').value,
             email: document.getElementById('email').value,
-            celular: document.getElementById('telefone').value,
+            telefone: document.getElementById('telefone').value,
             cidade: document.getElementById('cidade').value
         }
         const index = document.getElementById('nome').dataset.index
@@ -101,7 +101,7 @@ const updateTable = () => {
 const fillFields = (client) => {
     document.getElementById('nome').value = client.nome
     document.getElementById('email').value = client.email
-    document.getElementById('telefone').value = client.celular
+    document.getElementById('telefone').value = client.telefone
     document.getElementById('cidade').value = client.cidade
     document.getElementById('nome').dataset.index = client.index
 }
